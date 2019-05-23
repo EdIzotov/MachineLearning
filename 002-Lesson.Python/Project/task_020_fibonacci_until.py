@@ -10,6 +10,8 @@ def fibonacci(number):
         print(n1)
     else:
         for i in range(number):
+            if n1 > number:
+                break
             print(n1)
             ntn = n1 + n2
             n1 = n2

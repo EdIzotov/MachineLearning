@@ -31,3 +31,8 @@ print(sorted(values6))
 print(values6)
 values6.sort()
 print(values6)
+
+a = [z * z for z in range(10)]
+print(a)
+values = [int(z) for z in input().split()]
+print(values)
